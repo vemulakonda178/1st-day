@@ -1,0 +1,35 @@
+.card{
+	border: 2px solid #ddd;
+	background-color: red;
+	text-align: center;
+	color: green;
+	width: 300px;
+	margin: 5px;
+}
+a{
+	color: pink;
+}
+img {width: 100px}
+/*body{background-image: url("divya.jpg");
+	background-repeat: no-repeat;
+}*/
+.flex-parent{
+	background-color: pink;
+	flex-wrap: wrap;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+}
+
+@media screen and (min-width: 200px) and (max-width: 425px ){
+	.card,.google{
+		border: 2px solid #ddd;
+	background-color: yellow;
+	text-align: center;
+	color: black;
+	width: 300px;
+	margin: 5px;}
+	a{
+	color: black;
+}
+}
+
